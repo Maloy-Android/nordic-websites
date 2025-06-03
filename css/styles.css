@@ -343,12 +343,7 @@ main.dark, .card.dark, .about-section.dark,
 .card.dark, 
 .about-section.dark, 
 .contact-section.dark, 
-.author.dark, 
-.faq-item.dark {
-    background-color: #2d3748;
-    color: #e2e8f0;
-    border: 1px solid #4a5568;
-}
+.author.dark,
 
 .contact-link.dark {
     background-color: #2d3748;
