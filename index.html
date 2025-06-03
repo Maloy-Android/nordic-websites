@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nordic Sites - Создание сайтов</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <h1>Nordic Sites</h1>
+    <p>Создание современных и адаптивных сайтов</p>
+    <div class="button-container">
+        <button class="action-button" onclick="openSettings()">Настройки</button>
+        <button class="action-button" onclick="showAbout()">О нас</button>
+        <button class="action-button" onclick="showAuthors()">Авторы</button>
+        <button class="action-button" onclick="showContacts()">Контакты</button>
+        <button class="action-button" onclick="showFaq()">FAQ</button>
+    </div>
+</header>
+
+<main>
+    <div class="project-icon">
+        <img src="images/icon.png" alt="Иконка проекта">
+    </div>
+    <h2>Наши технологии</h2>
+    <p>Мы занимаемся созданием современных и адаптивных сайтов, используя следующие технологии:</p>
+    <div class="card-container">
+        <div class="card">
+            <i class="fab fa-html5"></i>
+            <h3>HTML</h3>
+            <p>Для структурирования и разметки страниц, создаем семантически правильный и чистый код.</p>
+        </div>
+        <div class="card">
+            <i class="fab fa-css3-alt"></i>
+            <h3>CSS</h3>
+            <p>Для стилизации сайтов, создаем привлекательные и удобные интерфейсы с адаптивным дизайном.</p>
+        </div>
+        <div class="card">
+            <i class="fab fa-js"></i>
+            <h3>JavaScript</h3>
+            <p>Для реализации интерактивных элементов и функционала, пишем чистый и оптимизированный код.</p>
+        </div>
+    </div>
+    
+    <section id="about" class="about-section" style="display: none;">
+        <h2>О нас</h2>
+        <div class="about_items">
+            <p>Привет! Мы — команда, которая любит создавать красивые, удобные и рабочие сайты. Мы не просто делаем сайты — мы решаем задачи бизнеса с помощью цифровых решений. Нам важно, чтобы вы были довольны не только результатом, но и процессом. Мы всегда готовы выслушать, подсказать и помочь. Создадим сайт, который будет действительно работать на вас!</p>
+        </div>
+    </section>
+    
+    <section id="authors" class="about-section" style="display: none;">
+        <h2>Авторы</h2>
+        <div class="authors">
+            <div class="author">
+                <img src="images/avatar2.jpg" alt="Максим Сермавбрин">
+                <h3>Максим Сермавбрин</h3>
+            </div>
+            <div class="author">
+                <img src="images/avatar1.jpg" alt="Вячеслав Филин">
+                <h3>Вячеслав Филин</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="contact-section" style="display: none;">
+        <h2>Контакты</h2>
+        <a href="https://t.me/+d3N9CFt0ZqcyMGEy" class="contact-link" target="_blank">
+            <i class="fab fa-telegram"></i> Telegram
+        </a>
+        <a href="https://www.instagram.com/nordicsites1?igsh=M2RyN2NjMjJxemFr" class="contact-link" target="_blank">
+            <i class="fab fa-instagram"></i> Instagram
+        </a>
+        <a href="mailto:nordicsites1@gmail.com" class="contact-link">
+            <i class="fas fa-envelope"></i> nordicsites1@gmail.com
+        </a>
+    </section>
+    <section id="faq" class="about-section" style="display: none;">
+        <h2>Часто задаваемые вопросы</h2>
+        <div class="faq-item">
+            <h3>Как связаться с вами?</h3>
+            <p>Вы можете связаться с нами через раздел "Контакты" или написать на электронную почту.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Каковы ваши цены?</h3>
+            <p>Цены зависят от проекта. Пожалуйста, свяжитесь с нами для получения более детальной информации.</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Nordic Sites. Все права защищены.</p>
+</footer>
+
+<div id="settingsModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeSettings()">&times;</span>
+        <h2>Настройки</h2>
+        <label for="theme">Тема:</label>
+        <select id="theme">
+            <option value="light">Светлая</option>
+            <option value="dark">Темная</option>
+        </select>
+        <br><br>
+        <label for="language">Язык:</label>
+        <select id="language" onchange="changeLanguage()">
+            <option value="ru">Русский</option>
+            <option value="en">Английский</option>
+        </select>
+        <br><br>
+        <button class="action-button" onclick="applySettings()">Применить</button>
+    </div>
+</div>
+<script src="js/script.js"></script>
+
+</body>
+</html>
