@@ -354,3 +354,36 @@ main.dark, .card.dark, .about-section.dark,
     background-color: #2d3748;
     color: #63b3ed;
 }
+
+.dark #settingsModal {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.dark #settingsModal .modal-content {
+    background-color: #2d3748;
+    color: #e2e8f0;
+    border: 1px solid #4a5568;
+}
+
+.dark #settingsModal .modal-content h2 {
+    color: #fff;
+}
+
+.dark #settingsModal label {
+    color: #cbd5e0;
+}
+
+.dark #settingsModal select,
+.dark #settingsModal button {
+    background-color: #4a5568;
+    color: #f7fafc;
+    border: 1px solid #718096;
+}
+
+.dark #settingsModal .close {
+    color: #e2e8f0;
+}
+
+.dark #settingsModal .close:hover {
+    color: #fff;
+}
