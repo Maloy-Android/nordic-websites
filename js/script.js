@@ -91,6 +91,7 @@ function updateLanguage() {
             darkOption: "Тёмная",
             languageLabel: "Язык:",
             russianOption: "Русский",
+            ukrainianOption: "Украинский",
             englishOption: "Английский",
             applyButton: "Применить"
         },
@@ -123,8 +124,42 @@ function updateLanguage() {
             darkOption: "Dark",
             languageLabel: "Language:",
             russianOption: "Russian",
+            ukrainianOption: "Ukrainian",
             englishOption: "English",
             applyButton: "Apply"
+        },
+        ua: {
+            title: "Nordic Sites - Створення веб-сайтів",
+            title_info: "Створення сучасних та адаптивних веб-сайтів",
+            about: "Про нас",
+            about_info: "Привіт! Ми команда, яка любить створювати красиві, зручні та функціональні веб-сайти. Ми не просто робимо сайти — ми вирішуємо бізнес-задачі за допомогою цифрових рішень. Для нас важливо, щоб ви залишилися задоволені не лише результатом, а й процесом. Ми завжди готові слухати, підказувати та допомагати. Давайте створимо сайт, який справді працюватиме на вас!",
+            authors: "Автори",
+            contacts: "Контакти",
+            techTitle: "Наші технології",
+            techDesc: "Ми створюємо сучасні та адаптивні веб-сайти, використовуючи такі технології:",
+            settings: "Налаштування",
+            apply: "Застосувати",
+            email: "nordicsites1@gmail.com",
+            telegram: "Telegram",
+            instagram: "Instagram",
+            footer: "Усі права захищені.",
+            technologies: "Наші технології",
+            technologies_info: "Ми створюємо сучасні та адаптивні веб-сайти, використовуючи такі технології:",
+            html_info: "Щоб структурувати та розмічати сторінки, ми створюємо семантично правильний та чистий код.",
+            css_info: "Для стилізації веб-сайтів ми створюємо привабливі та зручні інтерфейси з адаптивним дизайном.",
+            java_sript_Info: "Щоб реалізувати інтерактивні елементи та функціональність, ми пишемо чистий та оптимізований код.",
+            faq_title: "Як я можу з вами зв'язатися?",
+            faq_info: "Ви можете зв'язатися з нами через розділ 'Контакти' або надіслати нам електронного листа.",
+            faq_item_title: "Які ваші ціни?",
+            faq_item_info: "Ціни залежать від проекту. Будь ласка, зв'яжіться з нами для отримання детальнішої інформації.",
+            themeLabel: "Тема:",
+            lightOption: "Світла",
+            darkOption: "Темна",
+            languageLabel: "Мова:",
+            russianOption: "Російська",
+            ukrainianOption: "Українська",
+            englishOption: "Англійська",
+            applyButton: "Застосувати"
         }
     };
     
@@ -188,7 +223,8 @@ function updateLanguage() {
         
         const languageSelect = document.getElementById('language');
         languageSelect.options[0].text = translations[currentLanguage].russianOption;
-        languageSelect.options[1].text = translations[currentLanguage].englishOption;
+        languageSelect.options[1].text = translations[currentLanguage].ukrainianOption;
+        languageSelect.options[2].text = translations[currentLanguage].englishOption;
         
         settingsModal.querySelector('.action-button').textContent = translations[currentLanguage].applyButton;
     }
