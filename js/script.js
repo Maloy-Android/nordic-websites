@@ -193,7 +193,7 @@ function updateLanguage() {
         settingsModal.querySelector('.action-button').textContent = translations[currentLanguage].applyButton;
     }
     
-    document.querySelector('footer p').textContent = `&copy; 2025 Nordic Sites. ${translations[currentLanguage].footer}`;
+    document.querySelector('footer p').textContent = `2025 Nordic Sites. ${translations[currentLanguage].footer}`;
 }
 
 window.onclick = function(event) {
