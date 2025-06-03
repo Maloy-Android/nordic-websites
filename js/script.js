@@ -63,7 +63,7 @@ function changeLanguage() {
 function updateLanguage() {
     const translations = {
         ru: {
-            title: "Nordic Sites - Создание сайтов",
+            title: "Nordic Sites",
             title_info: "Создание современных и адаптивных сайтов",
             about: "О нас",
             about_info: "Привет! Мы — команда, которая любит создавать красивые, удобные и рабочие сайты. Мы не просто делаем сайты — мы решаем задачи бизнеса с помощью цифровых решений. Нам важно, чтобы вы были довольны не только результатом, но и процессом. Мы всегда готовы выслушать, подсказать и помочь. Создадим сайт, который будет действительно работать на вас!",
@@ -96,7 +96,7 @@ function updateLanguage() {
             applyButton: "Применить"
         },
         en: {
-            title: "Nordic Sites - Website Creation",
+            title: "Nordic Sites",
             title_info: "Creating modern and responsive websites",
             about: "About Us",
             about_info: "Hi! We are a team that loves to create beautiful, user-friendly and functional websites. We don't just make websites — we solve business problems using digital solutions. It is important to us that you are satisfied not only with the result, but also with the process. We are always ready to listen, prompt and help. Let's create a website that will really work for you!",
@@ -129,7 +129,7 @@ function updateLanguage() {
             applyButton: "Apply"
         },
         ua: {
-            title: "Nordic Sites - Створення веб-сайтів",
+            title: "Nordic Sites",
             title_info: "Створення сучасних та адаптивних веб-сайтів",
             about: "Про нас",
             about_info: "Привіт! Ми команда, яка любить створювати красиві, зручні та функціональні веб-сайти. Ми не просто робимо сайти — ми вирішуємо бізнес-задачі за допомогою цифрових рішень. Для нас важливо, щоб ви залишилися задоволені не лише результатом, а й процесом. Ми завжди готові слухати, підказувати та допомагати. Давайте створимо сайт, який справді працюватиме на вас!",
