@@ -92,6 +92,7 @@ function updateLanguage() {
             languageLabel: "Язык:",
             russianOption: "Русский",
             ukrainianOption: "Украинский",
+            italianOption: "Итальянский",
             englishOption: "Английский",
             applyButton: "Применить"
         },
@@ -125,6 +126,7 @@ function updateLanguage() {
             languageLabel: "Language:",
             russianOption: "Russian",
             ukrainianOption: "Ukrainian",
+            italianOption: "Italian",
             englishOption: "English",
             applyButton: "Apply"
         },
@@ -158,8 +160,43 @@ function updateLanguage() {
             languageLabel: "Мова:",
             russianOption: "Російська",
             ukrainianOption: "Українська",
+            italianOption: "Італійський",
             englishOption: "Англійська",
             applyButton: "Застосувати"
+        },
+        it: {
+            title: "Siti Nordici",
+            title_info: "Creazione di siti web moderni e reattivi",
+            about: "Chi Siamo",
+            about_info: "Ciao! Siamo un team che ama creare siti web belli, user-friendly e funzionali. Non ci limitiamo a realizzare siti web: risolviamo problemi aziendali utilizzando soluzioni digitali. È importante per noi che tu sia soddisfatto non solo del risultato, ma anche del processo. Siamo sempre pronti ad ascoltare, consigliare e aiutare. Creiamo un sito web che funzionerà davvero per te!",
+            authors: "Autori",
+            contacts: "Contatti",
+            techTitle: "Le Nostre Tecnologie",
+            techDesc: "Creiamo siti web moderni e reattivi utilizzando le seguenti tecnologie:",
+            settings: "Impostazioni",
+            apply: "Applica",
+            email: "nordicsites1@gmail.com",
+            telegram: "Telegram",
+            instagram: "Instagram",
+            footer: "Tutti i diritti riservati.",
+            technologies: "Le nostre tecnologie",
+            technologies_info: "Creiamo siti web moderni e reattivi utilizzando le seguenti tecnologie:",
+            html_info: "Per strutturare e contrassegnare le pagine, creiamo codice semanticamente corretto e pulito.",
+            css_info: "Per stilizzare i siti web, creiamo interfacce attraenti e user-friendly con design reattivo.",
+            java_sript_Info: "Per implementare elementi interattivi e funzionalità, scriviamo codice pulito e ottimizzato.",
+            faq_title: "Come posso contattarvi?",
+            faq_info: "Puoi contattarci tramite la sezione Contatti o inviarci un'email.",
+            faq_item_title: "Quali sono i vostri prezzi?",
+            faq_item_info: "I prezzi dipendono dal progetto. Ti preghiamo di contattarci per ulteriori informazioni.",
+            themeLabel: "Tema:",
+            lightOption: "Chiaro",
+            darkOption: "Scuro",
+            languageLabel: "Lingua:",
+            russianOption: "Russo",
+            ukrainianOption: "Ucraino",
+            italianOption: "Italiano",
+            englishOption: "Inglese",
+            applyButton: "Applica"
         }
     };
     
@@ -225,6 +262,7 @@ function updateLanguage() {
         languageSelect.options[0].text = translations[currentLanguage].russianOption;
         languageSelect.options[1].text = translations[currentLanguage].ukrainianOption;
         languageSelect.options[2].text = translations[currentLanguage].englishOption;
+        languageSelect.options[3].text = translations[currentLanguage].italianOption;
         
         settingsModal.querySelector('.action-button').textContent = translations[currentLanguage].applyButton;
     }
