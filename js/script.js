@@ -27,21 +27,42 @@ function closeSettings() {
 
 function showAbout() {
     hideAllSections();
+    showTechnologiesButton();
     document.getElementById('about').style.display = "block";
+}
+
+function showTechnologies(){
+    hideAllSections();
+    hideTechnologiesButton();
+    document.getElementById('technologies').style.display = "block";
+    document.getElementById('technologies-info').style.display = "block";
+    document.getElementById('card-container').style.display = "block";
+}
+
+function showTechnologiesButton() {
+    document.getElementById('technologies-button').style.display = "block"
+}
+
+function hideTechnologiesButton() {
+    document.getElementById('technologies-button').style.display = "none"
+
 }
 
 function showAuthors() {
     hideAllSections();
+    showTechnologiesButton();
     document.getElementById('authors').style.display = "block";
 }
 
 function showContacts() {
     hideAllSections();
+    showTechnologiesButton();
     document.getElementById('contacts').style.display = "block";
 }
 
 function showFaq() {
     hideAllSections();
+    showTechnologiesButton();
     document.getElementById('faq').style.display = "block";
 }
 
@@ -246,10 +267,11 @@ function updateLanguage() {
     const buttons = document.querySelectorAll('.action-button');
     if (buttons.length >= 5) {
         buttons[0].textContent = translations[currentLanguage].settings;
-        buttons[1].textContent = translations[currentLanguage].about;
-        buttons[2].textContent = translations[currentLanguage].authors;
-        buttons[3].textContent = translations[currentLanguage].contacts;
-        buttons[4].textContent = "FAQ";
+        buttons[1].textContent = translations[currentLanguage].technologies;
+        buttons[2].textContent = translations[currentLanguage].about;
+        buttons[3].textContent = translations[currentLanguage].authors;
+        buttons[4].textContent = translations[currentLanguage].contacts;
+        buttons[5].textContent = "FAQ";
     }
     
     const settingsModal = document.getElementById('settingsModal');
