@@ -50,7 +50,9 @@ function hideAllSections() {
     document.getElementById('authors').style.display = "none";
     document.getElementById('contacts').style.display = "none";
     document.getElementById('faq').style.display = "none";
-    document.getElementById("technologies").style.display = "none";
+    document.getElementById('technologies').style.display = "none";
+    document.getElementById('technologies-info').style.display = "none";
+    document.getElementById('card-container').style.display = "none";
 }
 
 function changeLanguage() {
