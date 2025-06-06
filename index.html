@@ -13,14 +13,14 @@
 
 <header>
     <h1>Nordic Sites</h1>
-    <p>Создание современных и адаптивных сайтов</p>
+    <p>Creating modern and responsive websites</p>
     <div class="button-container">
-        <button class="action-button" id="settings-button" style="display: block;" onclick="openSettings()">Настройки</button>
+        <button class="action-button" id="settings-button" style="display: block;" onclick="openSettings()">Settings</button>
         <button class="action-button" id="technologies-button" style="display: none;"
-        onclick="showTechnologies()">Наши технологии</button>
-        <button class="action-button" id="about-button" style="display: block;" onclick="showAbout()">О нас</button>
-        <button class="action-button" id="authors-button" style="display: block;" onclick="showAuthors()">Авторы</button>
-        <button class="action-button" id="contacts-button" style="display: block;" onclick="showContacts()">Контакты</button>
+        onclick="showTechnologies()">Our technologies</button>
+        <button class="action-button" id="about-button" style="display: block;" onclick="showAbout()">About</button>
+        <button class="action-button" id="authors-button" style="display: block;" onclick="showAuthors()">Authors</button>
+        <button class="action-button" id="contacts-button" style="display: block;" onclick="showContacts()">Contacts</button>
         <button class="action-button" id="faq-button" style="display: block;" onclick="showFaq()">FAQ</button>
     </div>
 </header>
@@ -29,35 +29,35 @@
     <div class="project-icon">
         <img src="images/icon.png" alt="Иконка проекта">
     </div>
-    <h2 id = "technologies" style = "display: block;">Наши технологии</h2>
-    <p id="technologies-info" style="display:block;">Мы занимаемся созданием современных и адаптивных сайтов, используя следующие технологии:</p>
+    <h2 id = "technologies" style = "display: block;">Our technologies</h2>
+    <p id="technologies-info" style="display:block;">We create modern and responsive websites using the following technologies:</p>
     <div class="card-container" id = "card-container" style = "display:block;"> 
         <div class="card">
             <i class="fab fa-html5"></i>
             <h3>HTML</h3>
-            <p>Для структурирования и разметки страниц, создаем семантически правильный и чистый код.</p>
+            <p>To structure and mark up the pages, we create semantically correct and clean code.</p>
         </div>
         <div class="card">
             <i class="fab fa-css3-alt"></i>
             <h3>CSS</h3>
-            <p>Для стилизации сайтов, создаем привлекательные и удобные интерфейсы с адаптивным дизайном.</p>
+            <p>To style websites, we create attractive and user-friendly interfaces with responsive design.</p>
         </div>
         <div class="card">
             <i class="fab fa-js"></i>
             <h3>JavaScript</h3>
-            <p>Для реализации интерактивных элементов и функционала, пишем чистый и оптимизированный код.</p>
+            <p>To implement interactive elements and functionality, we write clean and optimized code.</p>
         </div>
     </div>
     
     <section id="about" class="about-section" style="display: none;">
-        <h2>О нас</h2>
+        <h2>About</h2>
         <div class="about_items">
-            <p>Привет! Мы — команда, которая любит создавать красивые, удобные и рабочие сайты. Мы не просто делаем сайты — мы решаем задачи бизнеса с помощью цифровых решений. Нам важно, чтобы вы были довольны не только результатом, но и процессом. Мы всегда готовы выслушать, подсказать и помочь. Создадим сайт, который будет действительно работать на вас!</p>
+            <p>ПHi! We are a team that loves to create beautiful, user-friendly and functional websites. We don't just make websites — we solve business problems using digital solutions. It is important to us that you are satisfied not only with the result, but also with the process. We are always ready to listen, prompt and help. Let's create a website that will really work for you!</p>
         </div>
     </section>
     
     <section id="authors" class="about-section" style="display: none;">
-        <h2>Авторы</h2>
+        <h2>Authors</h2>
         <div class="authors">
             <div class="author">
                 <img src="images/avatar2.jpg" alt="Максим Сермавбрин">
@@ -71,7 +71,7 @@
     </section>
 
     <section id="contacts" class="contact-section" style="display: none;">
-        <h2>Контакты</h2>
+        <h2>Contacts</h2>
         <a href="https://t.me/+d3N9CFt0ZqcyMGEy" class="contact-link" target="_blank">
             <i class="fab fa-telegram"></i> Telegram
         </a>
@@ -83,41 +83,41 @@
         </a>
     </section>
     <section id="faq" class="about-section" style="display: none;">
-        <h2>Часто задаваемые вопросы</h2>
+        <h2>Frequently Asked Questions</h2>
         <div class="faq-item">
-            <h3>Как связаться с вами?</h3>
-            <p>Вы можете связаться с нами через раздел "Контакты" или написать на электронную почту.</p>
+            <h3>How can I contact you?</h3>
+            <p>You can contact us through the Contacts section or send us an email.</p>
         </div>
         <div class="faq-item">
-            <h3>Каковы ваши цены?</h3>
-            <p>Цены зависят от проекта. Пожалуйста, свяжитесь с нами для получения более детальной информации.</p>
+            <h3>What are your prices?</h3>
+            <p>Prices depend on the project. Please contact us for more detailed information.</p>
         </div>
     </section>
 </main>
 
 <footer>
-    <p>2025 Nordic Sites. Все права защищены.</p>
+    <p>2025 Nordic Sites. All rights reserved.</p>
 </footer>
 
 <div id="settingsModal" class="modal">
     <div class="modal-content">
         <span class="close" onclick="closeSettings()">&times;</span>
-        <h2>Настройки</h2>
-        <label for="theme">Тема:</label>
+        <h2>Settings</h2>
+        <label for="theme">Language:</label>
         <select id="theme">
-            <option value="light">Светлая</option>
-            <option value="dark">Темная</option>
+            <option value="light">Lights</option>
+            <option value="dark">Dark</option>
         </select>
         <br><br>
-        <label for="language">Язык:</label>
+        <label for="language">Language:</label>
         <select id="language" onchange="changeLanguage()">
-            <option value="ru">Русский</option>
-            <option value="ua">Украинский</option>
-            <option value="en">Английский</option>
-            <option value="it">Итальянский</option>
+            <option value="ru">Russian</option>
+            <option value="ua">Ukranian</option>
+            <option value="en">English</option>
+            <option value="it">Italian</option>
         </select>
         <br><br>
-        <button class="action-button" onclick="applySettings()">Применить</button>
+        <button class="action-button" onclick="applySettings()">Apply</button>
     </div>
 </div>
 <script src="js/script.js"></script>

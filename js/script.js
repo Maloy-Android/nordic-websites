@@ -1,5 +1,5 @@
 let lastScrollTop = 0;
-let currentLanguage = 'ru';
+let currentLanguage = 'en';
 const header = document.querySelector('header');
 const SCROLL_THRESHOLD = 100;
 
@@ -17,115 +17,31 @@ function handleScroll() {
 
 window.addEventListener('scroll', handleScroll);
 
-
-function showSettingsButton() {
-    document.getElementById('settings-button').style.display = "block";
-}
-
-function hideSettingsButton() {
-    document.getElementById('settings-button').style.display = "none";
-}
-
-function showTechnologiesButton() {
-    document.getElementById('technologies-button').style.display = "block";
-}
-
-function hideTechnologiesButton() {
-    document.getElementById('technologies-button').style.display = "none";
-
-}
-
-function showAboutButton() {
-    document.getElementById('about-button').style.display = "block";
-}
-
-function hideAboutButton() {
-    document.getElementById('about-button').style.display = "none";
-}
-
-function showAuthorsButton() {
-    document.getElementById('authors-button').style.display = "block";
-}
-
-function hideAuthorsButton() {
-    document.getElementById('authors-button').style.display = "none";
-}
-
-function showContactsButton() {
-    document.getElementById('contacts-button').style.display = "block";
-}
-
-function hideContactsButton() {
-    document.getElementById('contacts-button').style.display = "none";
-}
-
-function showFaqButton() {
-    document.getElementById('faq-button').style.display = "block";
-}
-
-function hideFaqButton() {
-    document.getElementById('faq-button').style.display = "none";
-}
-
 function openSettings() {
-    hideSettingsButton();
     document.getElementById('settingsModal').style.display = "flex";
 }
 
 function closeSettings() {
-    showSettingsButton();
     document.getElementById('settingsModal').style.display = "none";
 }
 
 function showAbout() {
     hideAllSections();
-    hideAboutButton();
-    showTechnologiesButton();
-    showAuthorsButton();
-    showContactsButton();
-    showFaqButton();
     document.getElementById('about').style.display = "block";
-}
-
-function showTechnologies() {
-    hideAllSections();
-    hideTechnologiesButton();
-    showAboutButton();
-    showAuthorsButton();
-    showContactsButton();
-    showFaqButton();
-    document.getElementById('technologies').style.display = "block";
-    document.getElementById('technologies-info').style.display = "block";
-    document.getElementById('card-container').style.display = "block";
 }
 
 function showAuthors() {
     hideAllSections();
-    hideAuthorsButton();
-    showTechnologiesButton();
-    showAboutButton();
-    showContactsButton();
-    showFaqButton();
     document.getElementById('authors').style.display = "block";
 }
 
 function showContacts() {
     hideAllSections();
-    hideContactsButton();
-    showTechnologiesButton();
-    showAboutButton();
-    showAuthorsButton();
-    showFaqButton();
     document.getElementById('contacts').style.display = "block";
 }
 
 function showFaq() {
     hideAllSections();
-    hideFaqButton();
-    showTechnologiesButton();
-    showAboutButton();
-    showAuthorsButton();
-    showContactsButton();
     document.getElementById('faq').style.display = "block";
 }
 
@@ -134,9 +50,6 @@ function hideAllSections() {
     document.getElementById('authors').style.display = "none";
     document.getElementById('contacts').style.display = "none";
     document.getElementById('faq').style.display = "none";
-    document.getElementById('technologies').style.display = "none";
-    document.getElementById('technologies-info').style.display = "none";
-    document.getElementById('card-container').style.display = "none";
 }
 
 function changeLanguage() {
@@ -170,6 +83,7 @@ function updateLanguage() {
             css_info: "Для стилизации сайтов, создаем привлекательные и удобные интерфейсы с адаптивным дизайном",
             java_sript_Info: "Для реализации интерактивных элементов и функционала, пишем чистый и оптимизированный код.",
             faq_title: "Как связаться с вами?",
+            faq_title_2:"Часто задаваемые вопросы",
             faq_info: "Вы можете связаться с нами через раздел Контакты или написать на электронную почту.",
             faq_item_title: "Каковы ваши цены?",
             faq_item_info: "Цены зависят от проекта. Пожалуйста, свяжитесь с нами для получения более детальной информации.",
@@ -204,6 +118,7 @@ function updateLanguage() {
             css_info: "To style websites, we create attractive and user-friendly interfaces with responsive design.",
             java_sript_Info: "To implement interactive elements and functionality, we write clean and optimized code.",
             faq_title: "How can I contact you?",
+            faq_title_2:"Frequently Asked Questions",
             faq_info: "You can contact us through the Contacts section or send us an email.",
             faq_item_title: "What are your prices?",
             faq_item_info: "Prices depend on the project. Please contact us for more detailed information.",
@@ -238,6 +153,7 @@ function updateLanguage() {
             css_info: "Для стилізації веб-сайтів ми створюємо привабливі та зручні інтерфейси з адаптивним дизайном.",
             java_sript_Info: "Щоб реалізувати інтерактивні елементи та функціональність, ми пишемо чистий та оптимізований код.",
             faq_title: "Як я можу з вами зв'язатися?",
+            faq_title_2:"Поширені запитання",
             faq_info: "Ви можете зв'язатися з нами через розділ 'Контакти' або надіслати нам електронного листа.",
             faq_item_title: "Які ваші ціни?",
             faq_item_info: "Ціни залежать від проекту. Будь ласка, зв'яжіться з нами для отримання детальнішої інформації.",
@@ -272,6 +188,7 @@ function updateLanguage() {
             css_info: "Per stilizzare i siti web, creiamo interfacce attraenti e user-friendly con design reattivo.",
             java_sript_Info: "Per implementare elementi interattivi e funzionalità, scriviamo codice pulito e ottimizzato.",
             faq_title: "Come posso contattarvi?",
+            faq_title_2:"Domande frequenti",
             faq_info: "Puoi contattarci tramite la sezione Contatti o inviarci un'email.",
             faq_item_title: "Quali sono i vostri prezzi?",
             faq_item_info: "I prezzi dipendono dal progetto. Ti preghiamo di contattarci per ulteriori informazioni.",
@@ -313,6 +230,7 @@ function updateLanguage() {
     const faqItems = document.querySelectorAll('.faq-item');
     if (faqItems.length >= 2) {
         faqItems[0].querySelector('h3').textContent = translations[currentLanguage].faq_title;
+        faqItems[0].querySelector('h2').textContent = translations[currentLanguage].faq_title_2;
         faqItems[0].querySelector('p').textContent = translations[currentLanguage].faq_info;
         faqItems[1].querySelector('h3').textContent = translations[currentLanguage].faq_item_title;
         faqItems[1].querySelector('p').textContent = translations[currentLanguage].faq_item_info;
@@ -330,11 +248,10 @@ function updateLanguage() {
     const buttons = document.querySelectorAll('.action-button');
     if (buttons.length >= 5) {
         buttons[0].textContent = translations[currentLanguage].settings;
-        buttons[1].textContent = translations[currentLanguage].technologies;
-        buttons[2].textContent = translations[currentLanguage].about;
-        buttons[3].textContent = translations[currentLanguage].authors;
-        buttons[4].textContent = translations[currentLanguage].contacts;
-        buttons[5].textContent = "FAQ";
+        buttons[1].textContent = translations[currentLanguage].about;
+        buttons[2].textContent = translations[currentLanguage].authors;
+        buttons[3].textContent = translations[currentLanguage].contacts;
+        buttons[4].textContent = "FAQ";
     }
     
     const settingsModal = document.getElementById('settingsModal');
