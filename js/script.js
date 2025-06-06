@@ -284,10 +284,11 @@ function updateLanguage() {
     const buttons = document.querySelectorAll('.action-button');
     if (buttons.length >= 5) {
         buttons[0].textContent = translations[currentLanguage].settings;
-        buttons[1].textContent = translations[currentLanguage].about;
-        buttons[2].textContent = translations[currentLanguage].authors;
-        buttons[3].textContent = translations[currentLanguage].contacts;
-        buttons[4].textContent = "FAQ";
+        buttons[1].textContent = translations[currentLanguage].technologies;
+        buttons[2].textContent = translations[currentLanguage].about;
+        buttons[3].textContent = translations[currentLanguage].authors;
+        buttons[4].textContent = translations[currentLanguage].contacts;
+        buttons[5].textContent = "FAQ";
     }
     
     const settingsModal = document.getElementById('settingsModal');
