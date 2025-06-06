@@ -80,9 +80,7 @@ function closeSettings() {
 function showAbout() {
     hideAllSections();
     hideAboutButton();
-
     showTechnologiesButton();
-    showAboutButton();
     showAuthorsButton();
     showContactsButton();
     showFaqButton();
@@ -91,7 +89,6 @@ function showAbout() {
 
 function showTechnologies() {
     hideAllSections();
-
     hideTechnologiesButton();
     showAboutButton();
     showAuthorsButton();
@@ -105,7 +102,6 @@ function showTechnologies() {
 function showAuthors() {
     hideAllSections();
     hideAuthorsButton();
-
     showTechnologiesButton();
     showAboutButton();
     showContactsButton();
@@ -116,7 +112,6 @@ function showAuthors() {
 function showContacts() {
     hideAllSections();
     hideContactsButton();
-
     showTechnologiesButton();
     showAboutButton();
     showAuthorsButton();
@@ -127,7 +122,6 @@ function showContacts() {
 function showFaq() {
     hideAllSections();
     hideFaqButton();
-
     showTechnologiesButton();
     showAboutButton();
     showAuthorsButton();
