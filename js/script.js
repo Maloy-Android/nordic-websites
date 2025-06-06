@@ -18,30 +18,63 @@ function handleScroll() {
 window.addEventListener('scroll', handleScroll);
 
 function openSettings() {
+    hideSettingsButton();
     document.getElementById('settingsModal').style.display = "flex";
 }
 
 function closeSettings() {
+    showSettingsButton();
     document.getElementById('settingsModal').style.display = "none";
 }
 
 function showAbout() {
     hideAllSections();
+    hideAboutButton();
+    showTechnologiesButton();
+    showAuthorsButton();
+    showContactsButton();
+    showFaqButton();
     document.getElementById('about').style.display = "block";
+}
+
+function showTechnologies() {
+    hideAllSections();
+    hideTechnologiesButton();
+    showAboutButton();
+    showAuthorsButton();
+    showContactsButton();
+    showFaqButton();
+    document.getElementById('technologies').style.display = "block";
+    document.getElementById('technologies-info').style.display = "block";
+    document.getElementById('card-container').style.display = "block";
 }
 
 function showAuthors() {
     hideAllSections();
+    hideAuthorsButton();
+    showTechnologiesButton();
+    showContactsButton();
+    showFaqButton();
     document.getElementById('authors').style.display = "block";
 }
 
 function showContacts() {
     hideAllSections();
+    hideContactsButton();
+    showTechnologiesButton();
+    showAboutButton();
+    showAuthorsButton();
+    showFaqButton();
     document.getElementById('contacts').style.display = "block";
 }
 
 function showFaq() {
     hideAllSections();
+    hideFaqButton();
+    showTechnologiesButton();
+    showAboutButton();
+    showAuthorsButton();
+    showContactsButton();
     document.getElementById('faq').style.display = "block";
 }
 
@@ -50,6 +83,9 @@ function hideAllSections() {
     document.getElementById('authors').style.display = "none";
     document.getElementById('contacts').style.display = "none";
     document.getElementById('faq').style.display = "none";
+    document.getElementById('technologies').style.display = "none";
+    document.getElementById('technologies-info').style.display = "none";
+    document.getElementById('card-container').style.display = "none";
 }
 
 function changeLanguage() {
@@ -314,3 +350,53 @@ window.onload = function() {
     
     lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
 };
+
+
+function showSettingsButton() {
+    document.getElementById('settings-button').style.display = "block";
+}A
+
+function hideSettingsButton() {
+    document.getElementById('settings-button').style.display = "none";
+}
+
+function showTechnologiesButton() {
+    document.getElementById('technologies-button').style.display = "block";
+}
+
+function hideTechnologiesButton() {
+    document.getElementById('technologies-button').style.display = "none";
+
+}
+
+function showAboutButton() {
+    document.getElementById('about-button').style.display = "block";
+}
+
+function hideAboutButton() {
+    document.getElementById('about-button').style.display = "none";
+}
+
+function showAuthorsButton() {
+    document.getElementById('authors-button').style.display = "block";
+}
+
+function hideAuthorsButton() {
+    document.getElementById('authors-button').style.display = "none";
+}
+
+function showContactsButton() {
+    document.getElementById('contacts-button').style.display = "block";
+}
+
+function hideContactsButton() {
+    document.getElementById('contacts-button').style.display = "none";
+}
+
+function showFaqButton() {
+    document.getElementById('faq-button').style.display = "block";
+}
+
+function hideFaqButton() {
+    document.getElementById('faq-button').style.display = "none";
+}
