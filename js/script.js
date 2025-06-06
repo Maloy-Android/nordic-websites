@@ -347,9 +347,9 @@ function updateLanguage() {
         themeSelect.options[1].text = translations[currentLanguage].darkOption;
         
         const languageSelect = document.getElementById('language');
-        languageSelect.options[0].text = translations[currentLanguage].russianOption;
+        languageSelect.options[0].text = translations[currentLanguage].englishOptionOption;
         languageSelect.options[1].text = translations[currentLanguage].ukrainianOption;
-        languageSelect.options[2].text = translations[currentLanguage].englishOption;
+        languageSelect.options[2].text = translations[currentLanguage].russianOption;
         languageSelect.options[3].text = translations[currentLanguage].italianOption;
         
         settingsModal.querySelector('.action-button').textContent = translations[currentLanguage].applyButton;
