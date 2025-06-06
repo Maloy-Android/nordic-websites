@@ -17,52 +17,121 @@ function handleScroll() {
 
 window.addEventListener('scroll', handleScroll);
 
+
+function showSettingsButton() {
+    document.getElementById('settings-button').style.display = "block";
+}
+
+function hideSettingsButton() {
+    document.getElementById('settings-button').style.display = "none";
+}
+
+function showTechnologiesButton() {
+    document.getElementById('technologies-button').style.display = "block";
+}
+
+function hideTechnologiesButton() {
+    document.getElementById('technologies-button').style.display = "none";
+
+}
+
+function showAboutButton() {
+    document.getElementById('about-button').style.display = "block";
+}
+
+function hideAboutButton() {
+    document.getElementById('about-button').style.display = "none";
+}
+
+function showAuthorsButton() {
+    document.getElementById('authors-button').style.display = "block";
+}
+
+function hideAuthorsButton() {
+    document.getElementById('authors-button').style.display = "none";
+}
+
+function showContactsButton() {
+    document.getElementById('contacts-button').style.display = "block";
+}
+
+function hideContactsButton() {
+    document.getElementById('contacts-button').style.display = "none";
+}
+
+function showFaqButton() {
+    document.getElementById('faq-button').style.display = "block";
+}
+
+function hideFaqButton() {
+    document.getElementById('faq-button').style.display = "none";
+}
+
 function openSettings() {
+    hideSettingsButton();
     document.getElementById('settingsModal').style.display = "flex";
 }
 
 function closeSettings() {
+    showSettingsButton();
     document.getElementById('settingsModal').style.display = "none";
 }
 
 function showAbout() {
     hideAllSections();
+    hideAboutButton();
+
     showTechnologiesButton();
+    showAboutButton();
+    showAuthorsButton();
+    showContactsButton();
+    showFaqButton();
     document.getElementById('about').style.display = "block";
 }
 
-function showTechnologies(){
+function showTechnologies() {
     hideAllSections();
+
     hideTechnologiesButton();
+    showAboutButton();
+    showAuthorsButton();
+    showContactsButton();
+    showFaqButton();
     document.getElementById('technologies').style.display = "block";
     document.getElementById('technologies-info').style.display = "block";
     document.getElementById('card-container').style.display = "block";
 }
 
-function showTechnologiesButton() {
-    document.getElementById('technologies-button').style.display = "block"
-}
-
-function hideTechnologiesButton() {
-    document.getElementById('technologies-button').style.display = "none"
-
-}
-
 function showAuthors() {
     hideAllSections();
+    hideAuthorsButton();
+
     showTechnologiesButton();
+    showAboutButton();
+    showContactsButton();
+    showFaqButton();
     document.getElementById('authors').style.display = "block";
 }
 
 function showContacts() {
     hideAllSections();
+    hideContactsButton();
+
     showTechnologiesButton();
+    showAboutButton();
+    showAuthorsButton();
+    showFaqButton();
     document.getElementById('contacts').style.display = "block";
 }
 
 function showFaq() {
     hideAllSections();
+    hideFaqButton();
+
     showTechnologiesButton();
+    showAboutButton();
+    showAuthorsButton();
+    showContactsButton();
     document.getElementById('faq').style.display = "block";
 }
 
