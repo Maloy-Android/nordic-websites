@@ -1,5 +1,5 @@
 let lastScrollTop = 0;
-let currentLanguage = 'ru';
+let currentLanguage = 'en';
 const header = document.querySelector('header');
 const SCROLL_THRESHOLD = 100;
 
