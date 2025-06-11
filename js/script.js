@@ -168,11 +168,24 @@ function updateLanguage() {
             technologies_info: "Мы занимаемся созданием современных и адаптивных сайтов, используя следующие технологии:",
             html_info: "Для структурирования и разметки страниц, создаем семантически правильный и чистый код.",
             css_info: "Для стилизации сайтов, создаем привлекательные и удобные интерфейсы с адаптивным дизайном",
+            faq_title: "Часто задаваемые вопросы",
             java_sript_Info: "Для реализации интерактивных элементов и функционала, пишем чистый и оптимизированный код.",
-            faq_title: "Как связаться с вами?",
+            faq_contact_title: "Как связаться с вами?",
             faq_info: "Вы можете связаться с нами через раздел Контакты или написать на электронную почту.",
             faq_item_title: "Каковы ваши цены?",
             faq_item_info: "Цены зависят от проекта. Пожалуйста, свяжитесь с нами для получения более детальной информации.",
+            faq_item_title_1: "Чем именно вы занимаетесь?",
+            faq_item_title_2: "Мы также помогаем с доработкой и поддержкой существующих сайтов.",
+            faq_item_title_3: "Почему нам стоит выбрать именно вас, а не более опытное агентство/фрилансера?",
+            faq_item_info_1: "Мы создаем современные и эффективные сайты для бизнеса.",
+            faq_item_info_2: "Наша специализация включает разработку продающих лендингов, информативных сайтов-визиток, функциональных корпоративных сайтов и интернет-магазинов.",
+            faq_item_info_3: "Мы открыты к сотрудничеству с любым бизнесом, стремящимся усилить свое присутствие в интернете!",
+            faq_item_info_4: "Особенно успешно работаем с малым и средним бизнесом, стартапами, специалистами (фрилансерами) и компаниями, оказывающими локальные услуги.",
+            faq_item_info_5: "Наш подход позволяет найти решение для каждой ниши.",
+            faq_item_info_6: "Как начинающая студия, мы делаем ставку на максимальную вовлеченность и индивидуальный подход каждому клиенту.",
+            faq_item_info_7: "Вы получаете персонального менеджера и команду, которая будет сфокусирована именно на вашем проекте.",
+            faq_item_info_8: "Мы предлагаем приятные цены без переплаты за громкое имя, используем современные технологии горим желанием доказать свою эффективность через ваш успех.",
+            faq_item_info_9: "Для нас важен каждый проект!",
             themeLabel: "Тема:",
             lightOption: "Светлая",
             darkOption: "Тёмная",
@@ -203,9 +216,22 @@ function updateLanguage() {
             html_info: "To structure and mark up the pages, we create semantically correct and clean code.",
             css_info: "To style websites, we create attractive and user-friendly interfaces with responsive design.",
             java_sript_Info: "To implement interactive elements and functionality, we write clean and optimized code.",
-            faq_title: "How can I contact you?",
+            faq_title: "Frequently asked questions",
+            faq_contact_title: "How can I contact you?",
             faq_info: "You can contact us through the Contacts section or send us an email.",
             faq_item_title: "What are your prices?",
+            faq_item_title_1: "What exactly do you do?",
+            faq_item_title_2: "We also assist with refining and maintaining existing websites.",
+            faq_item_title_3: "Why should we choose you over a more experienced agency/freelancer?",
+            faq_item_info_1: "We create modern and effective business websites.",
+            faq_item_info_2: "Our specialization includes developing sales landing pages, informative business card sites, functional corporate websites, and online stores.",
+            faq_item_info_3: "We are open to collaborating with any business striving to strengthen its online presence!",
+            faq_item_info_4: "We work especially well with small and medium businesses, startups, specialists (freelancers), and companies providing local services.",
+            faq_item_info_5: "Our approach allows us to find a solution for every niche.",
+            faq_item_info_6: "As a startup studio, we focus on maximum engagement and a personalized approach for each client.",
+            faq_item_info_7: "You receive a personal manager and a team dedicated exclusively to your project.",
+            faq_item_info_8: "We offer competitive prices without overpaying for a big name, use modern technologies, and are passionate about proving our effectiveness through your success.",
+            faq_item_info_9: "Every project matters to us!",
             faq_item_info: "Prices depend on the project. Please contact us for more detailed information.",
             themeLabel: "Theme:",
             lightOption: "Light",
@@ -237,9 +263,22 @@ function updateLanguage() {
             html_info: "Щоб структурувати та розмічати сторінки, ми створюємо семантично правильний та чистий код.",
             css_info: "Для стилізації веб-сайтів ми створюємо привабливі та зручні інтерфейси з адаптивним дизайном.",
             java_sript_Info: "Щоб реалізувати інтерактивні елементи та функціональність, ми пишемо чистий та оптимізований код.",
-            faq_title: "Як я можу з вами зв'язатися?",
+            faq_title: "Поширені запитання",
+            faq_contact_title: "Як я можу з вами зв'язатися?",
             faq_info: "Ви можете зв'язатися з нами через розділ 'Контакти' або надіслати нам електронного листа.",
             faq_item_title: "Які ваші ціни?",
+            faq_item_title_1: "Чим саме ви займаєтесь?",
+            faq_item_title_2: "Ми також допомагаємо з доопрацюванням та підтримкою існуючих сайтів.",
+            faq_item_title_3: "Чому нам варто вибрати саме вас, а не більш досвідчене агентство/фрілансера?",
+            faq_item_info_1: "Ми створюємо сучасні та ефективні сайти для бізнесу.",
+            faq_item_info_2: "Наша спеціалізація включає розробку продаючих лендінгів, інформативних сайтів-візиток, функціональних корпоративних сайтів та інтернет-магазинів.",
+            faq_item_info_3: "Ми відкриті до співпраці з будь-яким бізнесом, який прагне посилити свою присутність в інтернеті!",
+            faq_item_info_4: "Особливо успішно працюємо з малим та середнім бізнесом, стартапами, спеціалістами (фрілансерами) та компаніями, які надають локальні послуги.",
+            faq_item_info_5: "Наш підхід дозволяє знайти рішення для кожної ніші.",
+            faq_item_info_6: "Як початкова студія, ми робимо ставку на максимальну залученість та індивідуальний підхід до кожного клієнта.",
+            faq_item_info_7: "Ви отримуєте персонального менеджера та команду, яка буде сфокусована саме на вашому проекті.",
+            faq_item_info_8: "Ми пропонуємо приємні ціни без переплати за гучне ім'я, використовуємо сучасні технології та палаємо бажанням довести свою ефективність через ваш успіх.",
+            faq_item_info_9: "Для нас важливий кожен проект!",
             faq_item_info: "Ціни залежать від проекту. Будь ласка, зв'яжіться з нами для отримання детальнішої інформації.",
             themeLabel: "Тема:",
             lightOption: "Світла",
@@ -271,7 +310,20 @@ function updateLanguage() {
             html_info: "Per strutturare e contrassegnare le pagine, creiamo codice semanticamente corretto e pulito.",
             css_info: "Per stilizzare i siti web, creiamo interfacce attraenti e user-friendly con design reattivo.",
             java_sript_Info: "Per implementare elementi interattivi e funzionalità, scriviamo codice pulito e ottimizzato.",
-            faq_title: "Come posso contattarvi?",
+            faq_title: "Domande frequenti",
+            faq_contact_title: "Come posso contattarvi?",
+            faq_item_title_1: "Cosa fate esattamente?",
+            faq_item_title_2: "Aiutiamo anche con il perfezionamento e la manutenzione di siti web esistenti.",
+            faq_item_title_3: "Perché dovremmo scegliere voi invece di un'agenzia/freelancer più esperta?",
+            faq_item_info_1: "Creiamo siti web moderni ed efficaci per le aziende.",
+            faq_item_info_2: "La nostra specializzazione include lo sviluppo di landing page di vendita, siti web informativi biglietti da visita, siti web aziendali funzionali e negozi online.",
+            faq_item_info_3: "Siamo aperti a collaborare con qualsiasi azienda che mira a rafforzare la propria presenza online!",
+            faq_item_info_4: "Lavoriamo con particolare successo con piccole e medie imprese, startup, specialisti (freelancer) e aziende che forniscono servizi locali.",
+            faq_item_info_5: "Il nostro approccio ci consente di trovare una soluzione per ogni nicchia.",
+            faq_item_info_6: "Come studio alle prime armi, puntiamo sul massimo coinvolgimento e un approccio personalizzato per ogni cliente.",
+            faq_item_info_7: "Riceverai un manager personale e un team focalizzato esclusivamente sul tuo progetto.",
+            faq_item_info_8: "Offriamo prezzi competitivi senza pagare un sovrapprezzo per un nome famoso, utilizziamo tecnologie moderne e bruciamo dal desiderio di dimostrare la nostra efficacia attraverso il tuo successo.",
+            faq_item_info_9: "Ogni progetto è importante per noi!",
             faq_info: "Puoi contattarci tramite la sezione Contatti o inviarci un'email.",
             faq_item_title: "Quali sono i vostri prezzi?",
             faq_item_info: "I prezzi dipendono dal progetto. Ti preghiamo di contattarci per ulteriori informazioni.",
@@ -311,11 +363,32 @@ function updateLanguage() {
     
     document.querySelector('#faq h2').textContent = translations[currentLanguage].faq_title;
     const faqItems = document.querySelectorAll('.faq-item');
-    if (faqItems.length >= 2) {
-        faqItems[0].querySelector('h3').textContent = translations[currentLanguage].faq_title;
-        faqItems[0].querySelector('p').textContent = translations[currentLanguage].faq_info;
+    if (faqItems.length >= 5) {
+        faqItems[0].querySelector('h3').textContent = translations[currentLanguage].faq_contact_title;
+        const p0 = faqItems[0].querySelectorAll('p');
+        if (p0.length >= 1) p0[0].textContent = translations[currentLanguage].faq_info;
+
         faqItems[1].querySelector('h3').textContent = translations[currentLanguage].faq_item_title;
-        faqItems[1].querySelector('p').textContent = translations[currentLanguage].faq_item_info;
+        const p1 = faqItems[1].querySelectorAll('p');
+        if (p1.length >= 1) p1[0].textContent = translations[currentLanguage].faq_item_info;
+
+        faqItems[2].querySelector('h3').textContent = translations[currentLanguage].faq_item_title_1;
+        const p2 = faqItems[2].querySelectorAll('p');
+        if (p2.length >= 1) p2[0].textContent = translations[currentLanguage].faq_item_info_1;
+        if (p2.length >= 2) p2[1].textContent = translations[currentLanguage].faq_item_info_2;
+
+        faqItems[3].querySelector('h3').textContent = translations[currentLanguage].faq_item_title_2;
+        const p3 = faqItems[3].querySelectorAll('p');
+        if (p3.length >= 1) p3[0].textContent = translations[currentLanguage].faq_item_info_3;
+        if (p3.length >= 2) p3[1].textContent = translations[currentLanguage].faq_item_info_4;
+        if (p3.length >= 3) p3[2].textContent = translations[currentLanguage].faq_item_info_5;
+
+        faqItems[4].querySelector('h3').textContent = translations[currentLanguage].faq_item_title_3;
+        const p4 = faqItems[4].querySelectorAll('p');
+        if (p4.length >= 1) p4[0].textContent = translations[currentLanguage].faq_item_info_6;
+        if (p4.length >= 2) p4[1].textContent = translations[currentLanguage].faq_item_info_7;
+        if (p4.length >= 3) p4[2].textContent = translations[currentLanguage].faq_item_info_8;
+        if (p4.length >= 4) p4[3].textContent = translations[currentLanguage].faq_item_info_9;
     }
 
     const aboutSection = document.getElementById('about');
